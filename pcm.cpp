@@ -27,9 +27,7 @@ public:
     void Sampling(){
         for (int i = 0; i < times; ++i)
         {
-            int rad;
-            rad = ((2*3.14*freq*i)*(3.14))/180;
-            cout<<"  "<<(amplitude*sin(rad));
+            cout<<"  "<<(amplitude*sin(2 * 22.0/7 * freq * i));
             //cout<<amplitude<<endl<<freq<<endl<<times<<endl;
             //cout<<"  "<<(sin(2*3.14*freq*i));
             //cout<<"  "<<(amplitude*i);
