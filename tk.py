@@ -1,5 +1,5 @@
 from Tkinter import *
-master = Tk()
+master = Tk() #to solve StringVar() problem, this has to be at the beginning
 v = StringVar()
 b = StringVar()
 
